@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart menu</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- <link rel="stylesheet" href="swiper-bundle.min.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+<div class="nav">
+    <div class="logo">
+        <span data-aos="flip-up"><a href="index.html"><i class="fab fa-sellcast icon"></i></a></span>
+        <p data-aos="flip-right"><a href="index.html">Sunitey</a></p>
+
+        <div class="icons">
+            <i class="fas fa-shopping-cart cart" data-aos="flip-up"></i>
+            <span class="circle" data-aos="flip-down">
+                <span class="number">1</span>
+            </span>
+        </div>
+    </div>
+    <nav>
+        <div class="input" data-aos="flip-right">
+    <input type="search" placeholder="Search for products, brands and categories" class="search">
+        </div>
+    </nav>
+</div>
+<div class="container">
+    <h1>You ordered</h1>
+</div>
+
+</section>
+<div class="subnav">    
+    <div class="options" data-filter="fashion">
+        <span><i class="fas fa-tshirt"></i></span>
+        <span>Fashion</span>
+    </div>
+    <div class="options" data-filter = "computer">
+        <span><i class="fas fa-laptop"></i></span>
+        <span>Computers</span>
+    </div>
+    <div class="options" data-filter="phone">
+        <span><i class="fas fa-mobile"></i></span>
+        <span>Phones</span>
+    </div>
+    <div class="options active" data-filter="all">
+        <span><i class="fab fa-app-store-ios"></i></span>
+        <span>All Deals</span>
+    </div>
+</div>
+<span class="bar"><i class="fas fa-bars"></i></span>
+
+<section class="items" data-aos="flip-down">
+    <h1 data-aos="flip-down">Our Products</h1>
+    <div class="allItems">
+        <div class="item phone" data-id = "1" data-aos="slide-left" data-name="phone" data-price = "10">
+            <div class="image">
+                <img src="./images/images (9).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit</p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">10</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item computer" data-id = "2" data-aos="slide-right" data-name="computer" data-price = "358999">
+            <div class="image">
+                <img src="./images2/Apple Macbook Air.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item phone" data-id = "3" data-aos="slide-right" data-name="phone" data-price = "145999">
+            <div class="image">
+                <img src="./images/images (8).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item computer" data-id = "4" data-aos="slide-left" data-name="computer">
+            <div class="image">
+                <img src="./images2/CORE i3 Dell.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "5" data-aos="slide-right" data-name="phone">
+            <div class="image">
+                <img src="./images/images (7).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "6" data-aos="slide-left" data-name="computer">
+            <div class="image">
+                <img src="./images2/Dell Inspiron 15 3000.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "7" data-aos="slide-left" data-name="phone">
+            <div class="image">
+                <img src="./images/images (6).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+
+        <div class="item" data-id = "8" data-aos="slide-right" data-name="computer">
+            <div class="image">
+                <img src="./images2/Dell Inspiroon 15 INTEL.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "9" data-aos="slide-left" data-name="phone">
+            <div class="image">
+                <img src="./images/images (5).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "10" data-aos="slide-right" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP 15 core i3 Notebook.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "11" data-name="phone">
+            <div class="image">
+                <img src="./images/images (4).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "12" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP compaq.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id ="13" data-name="phone">
+            <div class="image">
+                <img src="./images/images (3).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>14-cf2288nia...</p>
+            <p class="price">#148,999</p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "14" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP Notebook 15.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+
+        <div class="item" data-id = "15" data-name="phone">
+            <div class="image">
+                <img src="./images/images (2).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "16" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP PAvilion.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "17" data-name="phone">
+            <div class="image">
+                <img src="./images/images (1).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "18" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP Stream 14.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "19" data-name="phone">
+            <div class="image">
+                <img src="./images/images (10).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "20" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP_15_core_i3_Notebook-removebg-preview.png" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "21" data-name="phone">
+            <div class="image">
+                <img src="./images/images (11).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+
+        <div class="item" data-id = "22" data-name="computer">
+            <div class="image">
+                <img src="./images2/HP_compaq-removebg-preview.png" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "23" data-name="phone">
+            <div class="image">
+                <img src="./images/images (12).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "24" data-name="computer">
+            <div class="image">
+                <img src="./images2/Macbok Pro Apple.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "25" data-name="phone">
+            <div class="image">
+                <img src="./images/images (1).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "26" data-name="computer">
+            <div class="image">
+                <img src="./images2/ThinkBook 16 Gen4.png" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "27" data-name="phone">
+            <div class="image">
+                <img src="./images/images (14).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "28" data-name="computer">
+            <div class="image">
+                <img src="./images2/ThinkPAd L14 Gen2.jpg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="item" data-id = "29" data-name="phone">
+            <div class="image">
+                <img src="./images/images (15).jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+
+        <div class="item" data-id = "30">
+            <div class="image">
+                <img src="./images/download.jpeg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit </p>
+            <p class="name">HP Laptop 14-cf2288nia...</p>
+            <p class=""><span>#</span><span class="price">148,999</span><span>.00</span></p>
+            <button class="add">Add to Cart</button>
+            <div class="increase">
+                <button class="minusBtn"><i class="fas fa-minus"></i></button>
+                <span class="increased">1</span>
+                <button class="plusBtn"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script src="swiper-bundle.min.js"></script> -->
+    <script src="./scripts/jquery.js"></script>
+    <script src="./scripts/all.min.js"></script>
+    <script src="./scripts/main.js"></script>
+    <script>
+          
+          AOS.init({
+    offset:100,
+    duration:1000
+
+});
+    </script>
+</body>
+</html>
